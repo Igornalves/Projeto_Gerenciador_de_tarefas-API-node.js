@@ -1,26 +1,26 @@
-# API para Gerenciamento de Tarefas
+# API for Task Management
 
-Bom esse projeto se refere ao desenvolvimento de uma API para criacao de tarefas simples que possuir o objetivo de aprender e usar tecnologias para o desenvolvimento de API com node.js
+Well, this project refers to the development of an API for creating simple tasks that have the objective of learning and using technologies for API development with node.js
 
-## Índice
+## Index
 
-- [Tecnologias e Ferramentas Utilizadas](#tecnologias-e-ferramentas-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação e Configuração](#instalação-e-configuração)
-- [Execução do Projeto](#execução-do-projeto)
+- [Technologies and Tools Used](#technologies-and-tools-used)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation and Configuration](#installation-and-configuration)
+- [Project Execution](#project-execution)
 
-## Tecnologias e Ferramentas Utilizadas
+## Technologies and Tools Used
 
-Foi utilizado no projeto varias tecnologias para o desenvolvimento das interfaces.
+Several technologies were used in the project for the development of the interfaces.
 
-<div style="display: inline_block"  align="center">
-  <img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=nodejs">
-  <img align="center" alt="React" height="49" width="51" src="https://skillicons.dev/icons?i=javascript">
-  <img align="center" alt="TypeScript" height="49" width="51" src="https://skillicons.dev/icons?i=typescript">
-  <img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=express">
-  <img align="center" alt="Python" height="49" width="51" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg">
-  <img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=sqlite">
+<div style="display: inline_block" align="center">
+ <img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=nodejs">
+ <img align="center" alt="React" height="49" width="51" src="https://skillicons.dev/icons?i=javascript">
+ <img align="center" alt="TypeScript" height="49" width="51" src="https://skillicons.dev/icons?i=typescript">
+ <img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=express">
+ <img align="center" alt="Python" height="49" width="51" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg">
+<img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=sqlite">
 </div>
 
 <br>
@@ -28,57 +28,58 @@ Foi utilizado no projeto varias tecnologias para o desenvolvimento das interface
 - node.js
 - TypeScript
 - Express
-- swagger 
+- swagger
 - Sqlite
 
-## Estrutura do Projeto 
+## Project Structure
 
-Toda a sua estrutura de projeto e suas rota forma documentadas na seguinte rota da aplicacao quando vc rodar a Aplicacao de forma local 
+Your entire project structure and routes are documented in the following application route when you run the Application locally
 
 ```
 http://localhost:3333/api-docs/
 ```
 
-Todas as requisições e respostas estao via documentada na forma local
+All requests and responses are documented locally
 
-## Pré-requisitos
+## Prerequisites
 
-Algums Pré-requisitos importantes para vc poder rodar o projeto na sua maquina local seria vc ter instalado as seguintes ferramentas que sao:
+Some important prerequisites for you to be able to run the project on your local machine you would need to have the following tools installed:
 
-<div style="display: inline_block"  align="center">
-  <img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=nodejs">
+<div style="display: inline_block" align="center">
+<img align="center" alt="Python" height="49" width="51" src="https://skillicons.dev/icons?i=nodejs">
 </div>
 
 <br>
 
 - node.js
 
-## Instalação e Configuração 
+## Installation and Configuration
 
-primeiro passo para vc conseguir executar o projeto de forma local seria usando o git instalado na sua maquina para fazer um clone do projeto para alguma pasta que vc deseja fazer isso.
+The first step to be able to run the project locally would be to use git installed on your machine to clone the project to any folder you want to do this in.
 
-crie uma pasta:
+create a folder:
 
 <Img src='https://www.ciabyte.com.br/imagens/pastas-windows-explorer.png'>
 
-Apos cria sua pasta vc vai entra no vscode para utilizar o seguinte comando no terminal
+After creating your folder, you will enter vscode to use the following command in the terminal
 
 ```powershell
-git clone https://github.com/Igornalves/Projeto_Gerenciador_de_tarefas-node.js.git
+git clone https://github.com/Igornalves/Projeto_Gerenciador_de_Tarefas-node.js.git
 ```
 
-### Excutando o Projeto de forma local
+### Running the Project Locally
 
-Com o projeto ja estando clonado vc agora vc poder instalar todas as dependencias do projeto usando o seguinte comandado
+With the project already cloned, you can now install all the project's dependencies using the following command
 
 ```terminal
-npm install 
+npm install
+
 ```
 
-agora com todas as dependencias instaladas vc pode executar o projeto de forma completa 
+Now that all the dependencies are installed, you can run the project completely
 
 ```
 npm run dev
 ```
 
-Desta forma agora vc podera usar o site e tambem fazer alteracoes no codigo fonte do projeto.
+This way, you will now be able to use the website and also make changes to the project's source code.
